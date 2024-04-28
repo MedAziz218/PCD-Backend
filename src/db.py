@@ -1,6 +1,7 @@
-from config import mongo_uri
 import mongoengine as mg
+from config import mongo_uri
 from models import PowerConsumptionLog
+
 mongo_connection = None
 try :
     print("[app] Attempting to connecting to db")
